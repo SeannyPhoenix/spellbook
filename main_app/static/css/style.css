@@ -1,0 +1,15 @@
+body {
+  font-family: 'Gotu', sans-serif;
+}
+
+.navbar {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<table class="table table-striped">
+  <thead class="thead-dark">
+    <th scope="col">Name</th>
+    <th scope="col">Short Description</th>
+  </thead>
+  <tbody>
+    {% for spell in spells %}
+    <tr>
+      <td><a href="/spells/{{spell.name}}">{{spell.name}}</a></td>
+      <td>{{spell.short_desc}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock content %}
